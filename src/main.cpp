@@ -4,6 +4,10 @@
 
 #include "medianstructure.h"
 
+/**
+ * @brief main
+ * A simple console application to demonstrate the MedianStore class.
+ */
 int main(int argc, char* argv[])
 {
     MedianStore<int> store;
