@@ -24,5 +24,5 @@ You can execute the unit test by running ./UnitTests
 
 ## Development design
 
-A set data structure was chosen for the storage of the integers. It provides an insert complexity of O(log(n)) due to its internal implementation as a balanced binary search tree. An iterator is kept to the current median which allows for a O(1) complexity of the getMedian() operation.
+A multiset data structure was chosen for the storage of the integers. It provides an insert complexity of O(log(n)) due to its internal implementation as a balanced binary search tree. An iterator is kept to the current median which allows for a O(1) complexity of the getMedian() operation.
 
